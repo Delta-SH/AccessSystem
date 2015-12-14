@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C4A8AD2A-80C2-480B-B5B0-74FACBCC409B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Delta.MPS.Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmInfo.cs" />
+    <Compile Include="ApplicationInfo.cs" />
+    <Compile Include="AuthorizationInfo.cs" />
+    <Compile Include="CardAuthInfo.cs" />
+    <Compile Include="CardInfo.cs" />
+    <Compile Include="CardRecordInfo.cs" />
+    <Compile Include="ClientInfo.cs" />
+    <Compile Include="ClientUserInfo.cs" />
+    <Compile Include="DatabaseServerInfo.cs" />
+    <Compile Include="DepartmentInfo.cs" />
+    <Compile Include="DeviceInfo.cs" />
+    <Compile Include="OrgEmployeeInfo.cs" />
+    <Compile Include="EnmInfo.cs" />
+    <Compile Include="IDValuePair.cs" />
+    <Compile Include="InterfaceInfo.cs" />
+    <Compile Include="LicenseInfo.cs" />
+    <Compile Include="LimitTimeInfo.cs" />
+    <Compile Include="LogInfo.cs" />
+    <Compile Include="NodeInfo.cs" />
+    <Compile Include="NodeLevelInfo.cs" />
+    <Compile Include="OrderInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecentUserInfo.cs" />
+    <Compile Include="RoleInfo.cs" />
+    <Compile Include="OutEmployeeInfo.cs" />
+    <Compile Include="StaInfo.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="ValuesPair.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
