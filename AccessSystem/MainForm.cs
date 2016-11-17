@@ -210,13 +210,6 @@ namespace Delta.MPS.AccessSystem
             try {
                 MainTimer.Stop();
 
-                #region
-                if (DateTime.Now >= new DateTime(2014, 11, 1)) {
-                    Environment.Exit(-1);
-                    return;
-                }
-                #endregion
-
                 //更新登录时长
                 DateTimeStatusLbl.Text = String.Format("登录时长：{0}", Common.GetTimeInterval(Common.CurApplication.AppLoginTime, DateTime.Now));
 

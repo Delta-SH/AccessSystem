@@ -623,7 +623,12 @@
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="app.manifest" />
+    <None Include="bin\Debug\Doc\Help.chm" />
+    <None Include="bin\Debug\Registry.db" />
+    <None Include="bin\Debug\Tools\无法安装AccessDatabaseEngine_x64时，请安装该目录下的文件\AceRedist.msi" />
+    <None Include="bin\Debug\Tools\无法安装AccessDatabaseEngine_x64时，请安装该目录下的文件\files14.cat" />
     <None Include="bin\Release\Doc\Help.chm" />
+    <None Include="bin\Release\Registry.db" />
     <None Include="Doc\Help.chm" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -663,6 +668,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\Tools\AccessDatabaseEngine_x64.exe" />
+    <Content Include="bin\Debug\Tools\AccessDatabaseEngine_x86.exe" />
+    <Content Include="bin\Debug\Tools\vcredist_x64.exe" />
+    <Content Include="bin\Debug\Tools\vcredist_x86.exe" />
+    <Content Include="bin\Debug\Tools\微软雅黑.exe" />
+    <Content Include="bin\Debug\x64\SQLite.Interop.dll" />
+    <Content Include="bin\Debug\x64\SQLite.Interop.pdb" />
+    <Content Include="bin\Debug\x86\SQLite.Interop.dll" />
+    <Content Include="bin\Debug\x86\SQLite.Interop.pdb" />
     <Content Include="bin\Release\Tools\vcredist_x64.exe" />
     <Content Include="bin\Release\Tools\vcredist_x86.exe" />
     <Content Include="bin\Release\Tools\VistaFont_CHS.EXE" />
