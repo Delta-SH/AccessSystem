@@ -67,14 +67,14 @@
             this.AlarmTimeLbl = new System.Windows.Forms.Label();
             this.CBPanel6 = new System.Windows.Forms.Panel();
             this.BeginToTime = new System.Windows.Forms.DateTimePicker();
+            this.CBPanel9 = new System.Windows.Forms.Panel();
+            this.RecTypeCL = new System.Windows.Forms.CheckedListBox();
+            this.RecTypeLbl = new System.Windows.Forms.Label();
             this.CBPanel7 = new System.Windows.Forms.Panel();
             this.QueryTypeLbl = new System.Windows.Forms.Label();
             this.QueryTypeCB = new System.Windows.Forms.ComboBox();
             this.CBPanel8 = new System.Windows.Forms.Panel();
             this.QueryTypeTB = new System.Windows.Forms.TextBox();
-            this.CBPanel9 = new System.Windows.Forms.Panel();
-            this.RecTypeCL = new System.Windows.Forms.CheckedListBox();
-            this.RecTypeLbl = new System.Windows.Forms.Label();
             this.CBPanel10 = new System.Windows.Forms.Panel();
             this.QueryBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.MainSplitContainer)).BeginInit();
@@ -91,9 +91,9 @@
             this.CBPanel4.SuspendLayout();
             this.CBPanel5.SuspendLayout();
             this.CBPanel6.SuspendLayout();
+            this.CBPanel9.SuspendLayout();
             this.CBPanel7.SuspendLayout();
             this.CBPanel8.SuspendLayout();
-            this.CBPanel9.SuspendLayout();
             this.CBPanel10.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -258,14 +258,14 @@
             this.RecordContextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.RecMenuItem1});
             this.RecordContextMenuStrip.Name = "contextMenuStrip1";
-            this.RecordContextMenuStrip.Size = new System.Drawing.Size(153, 48);
+            this.RecordContextMenuStrip.Size = new System.Drawing.Size(125, 26);
             this.RecordContextMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.RecordContextMenuStrip_Opening);
             // 
             // RecMenuItem1
             // 
             this.RecMenuItem1.Image = global::Delta.MPS.AccessSystem.Properties.Resources.disk;
             this.RecMenuItem1.Name = "RecMenuItem1";
-            this.RecMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.RecMenuItem1.Size = new System.Drawing.Size(124, 22);
             this.RecMenuItem1.Text = "数据导出";
             this.RecMenuItem1.Click += new System.EventHandler(this.RecMenuItem1_Click);
             // 
@@ -476,6 +476,36 @@
             this.BeginToTime.TabIndex = 2;
             this.BeginToTime.Value = new System.DateTime(2013, 1, 1, 0, 0, 0, 0);
             // 
+            // CBPanel9
+            // 
+            this.CBPanel9.Controls.Add(this.RecTypeCL);
+            this.CBPanel9.Controls.Add(this.RecTypeLbl);
+            this.CBPanel9.Location = new System.Drawing.Point(3, 189);
+            this.CBPanel9.Name = "CBPanel9";
+            this.CBPanel9.Size = new System.Drawing.Size(210, 80);
+            this.CBPanel9.TabIndex = 9;
+            // 
+            // RecTypeCL
+            // 
+            this.RecTypeCL.CheckOnClick = true;
+            this.RecTypeCL.Dock = System.Windows.Forms.DockStyle.Right;
+            this.RecTypeCL.FormattingEnabled = true;
+            this.RecTypeCL.Location = new System.Drawing.Point(60, 0);
+            this.RecTypeCL.Margin = new System.Windows.Forms.Padding(0);
+            this.RecTypeCL.Name = "RecTypeCL";
+            this.RecTypeCL.Size = new System.Drawing.Size(150, 80);
+            this.RecTypeCL.TabIndex = 2;
+            // 
+            // RecTypeLbl
+            // 
+            this.RecTypeLbl.Dock = System.Windows.Forms.DockStyle.Left;
+            this.RecTypeLbl.Location = new System.Drawing.Point(0, 0);
+            this.RecTypeLbl.Margin = new System.Windows.Forms.Padding(0);
+            this.RecTypeLbl.Name = "RecTypeLbl";
+            this.RecTypeLbl.Size = new System.Drawing.Size(60, 80);
+            this.RecTypeLbl.TabIndex = 1;
+            this.RecTypeLbl.Text = "记录类型";
+            // 
             // CBPanel7
             // 
             this.CBPanel7.Controls.Add(this.QueryTypeLbl);
@@ -527,36 +557,6 @@
             this.QueryTypeTB.Size = new System.Drawing.Size(150, 80);
             this.QueryTypeTB.TabIndex = 2;
             // 
-            // CBPanel9
-            // 
-            this.CBPanel9.Controls.Add(this.RecTypeCL);
-            this.CBPanel9.Controls.Add(this.RecTypeLbl);
-            this.CBPanel9.Location = new System.Drawing.Point(3, 189);
-            this.CBPanel9.Name = "CBPanel9";
-            this.CBPanel9.Size = new System.Drawing.Size(210, 80);
-            this.CBPanel9.TabIndex = 9;
-            // 
-            // RecTypeCL
-            // 
-            this.RecTypeCL.CheckOnClick = true;
-            this.RecTypeCL.Dock = System.Windows.Forms.DockStyle.Right;
-            this.RecTypeCL.FormattingEnabled = true;
-            this.RecTypeCL.Location = new System.Drawing.Point(60, 0);
-            this.RecTypeCL.Margin = new System.Windows.Forms.Padding(0);
-            this.RecTypeCL.Name = "RecTypeCL";
-            this.RecTypeCL.Size = new System.Drawing.Size(150, 80);
-            this.RecTypeCL.TabIndex = 2;
-            // 
-            // RecTypeLbl
-            // 
-            this.RecTypeLbl.Dock = System.Windows.Forms.DockStyle.Left;
-            this.RecTypeLbl.Location = new System.Drawing.Point(0, 0);
-            this.RecTypeLbl.Margin = new System.Windows.Forms.Padding(0);
-            this.RecTypeLbl.Name = "RecTypeLbl";
-            this.RecTypeLbl.Size = new System.Drawing.Size(60, 80);
-            this.RecTypeLbl.TabIndex = 1;
-            this.RecTypeLbl.Text = "记录类型";
-            // 
             // CBPanel10
             // 
             this.CBPanel10.Controls.Add(this.QueryBtn);
@@ -605,10 +605,10 @@
             this.CBPanel4.ResumeLayout(false);
             this.CBPanel5.ResumeLayout(false);
             this.CBPanel6.ResumeLayout(false);
+            this.CBPanel9.ResumeLayout(false);
             this.CBPanel7.ResumeLayout(false);
             this.CBPanel8.ResumeLayout(false);
             this.CBPanel8.PerformLayout();
-            this.CBPanel9.ResumeLayout(false);
             this.CBPanel10.ResumeLayout(false);
             this.ResumeLayout(false);
 

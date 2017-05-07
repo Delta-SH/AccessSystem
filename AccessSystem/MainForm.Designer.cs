@@ -1263,9 +1263,9 @@
             // ConnectionStatusLbl
             // 
             this.ConnectionStatusLbl.AutoSize = false;
-            this.ConnectionStatusLbl.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
+            this.ConnectionStatusLbl.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.ConnectionStatusLbl.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.ConnectionStatusLbl.Name = "ConnectionStatusLbl";
             this.ConnectionStatusLbl.Size = new System.Drawing.Size(120, 21);
@@ -1273,9 +1273,9 @@
             // RolesStatusLbl
             // 
             this.RolesStatusLbl.AutoSize = false;
-            this.RolesStatusLbl.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
+            this.RolesStatusLbl.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.RolesStatusLbl.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.RolesStatusLbl.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.RolesStatusLbl.Name = "RolesStatusLbl";
@@ -1283,9 +1283,9 @@
             // 
             // CompanyStatusLbl
             // 
-            this.CompanyStatusLbl.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
+            this.CompanyStatusLbl.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.CompanyStatusLbl.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.CompanyStatusLbl.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.CompanyStatusLbl.Name = "CompanyStatusLbl";
@@ -1295,9 +1295,9 @@
             // DateTimeStatusLbl
             // 
             this.DateTimeStatusLbl.AutoSize = false;
-            this.DateTimeStatusLbl.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
+            this.DateTimeStatusLbl.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.DateTimeStatusLbl.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.DateTimeStatusLbl.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.DateTimeStatusLbl.Name = "DateTimeStatusLbl";
@@ -1427,14 +1427,14 @@
             this.NodeStripSeparator3,
             this.NodeMenuItem4});
             this.NodeContextMenuStrip.Name = "NodeContextMenuStrip";
-            this.NodeContextMenuStrip.Size = new System.Drawing.Size(153, 154);
+            this.NodeContextMenuStrip.Size = new System.Drawing.Size(149, 132);
             this.NodeContextMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.NodeContextMenuStrip_Opening);
             // 
             // NodeMenuItem1
             // 
             this.NodeMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("NodeMenuItem1.Image")));
             this.NodeMenuItem1.Name = "NodeMenuItem1";
-            this.NodeMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.NodeMenuItem1.Size = new System.Drawing.Size(148, 22);
             this.NodeMenuItem1.Tag = "7001";
             this.NodeMenuItem1.Text = "远程控制";
             this.NodeMenuItem1.Click += new System.EventHandler(this.NodeMenuItem1_Click);
@@ -1443,7 +1443,7 @@
             // 
             this.NodeMenuItem2.Image = global::Delta.MPS.AccessSystem.Properties.Resources.cog;
             this.NodeMenuItem2.Name = "NodeMenuItem2";
-            this.NodeMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.NodeMenuItem2.Size = new System.Drawing.Size(148, 22);
             this.NodeMenuItem2.Tag = "7002";
             this.NodeMenuItem2.Text = "参数设置";
             this.NodeMenuItem2.Click += new System.EventHandler(this.NodeMenuItem2_Click);
@@ -1451,20 +1451,20 @@
             // NodeStripSeparator1
             // 
             this.NodeStripSeparator1.Name = "NodeStripSeparator1";
-            this.NodeStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.NodeStripSeparator1.Size = new System.Drawing.Size(145, 6);
             // 
             // NodeMenuItem3
             // 
             this.NodeMenuItem3.Image = global::Delta.MPS.AccessSystem.Properties.Resources.report;
             this.NodeMenuItem3.Name = "NodeMenuItem3";
-            this.NodeMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.NodeMenuItem3.Size = new System.Drawing.Size(148, 22);
             this.NodeMenuItem3.Text = "历史告警";
             this.NodeMenuItem3.Click += new System.EventHandler(this.NodeMenuItem3_Click);
             // 
             // NodeStripSeparator2
             // 
             this.NodeStripSeparator2.Name = "NodeStripSeparator2";
-            this.NodeStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            this.NodeStripSeparator2.Size = new System.Drawing.Size(145, 6);
             // 
             // NodeMenuItem5
             // 
@@ -1474,20 +1474,20 @@
             this.NodeMenuItem5.CheckState = System.Windows.Forms.CheckState.Checked;
             this.NodeMenuItem5.Image = global::Delta.MPS.AccessSystem.Properties.Resources.colors;
             this.NodeMenuItem5.Name = "NodeMenuItem5";
-            this.NodeMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.NodeMenuItem5.Size = new System.Drawing.Size(148, 22);
             this.NodeMenuItem5.Text = "显示状态颜色";
             this.NodeMenuItem5.CheckedChanged += new System.EventHandler(this.NodeMenuItem5_CheckedChanged);
             // 
             // NodeStripSeparator3
             // 
             this.NodeStripSeparator3.Name = "NodeStripSeparator3";
-            this.NodeStripSeparator3.Size = new System.Drawing.Size(149, 6);
+            this.NodeStripSeparator3.Size = new System.Drawing.Size(145, 6);
             // 
             // NodeMenuItem4
             // 
             this.NodeMenuItem4.Image = global::Delta.MPS.AccessSystem.Properties.Resources.disk;
             this.NodeMenuItem4.Name = "NodeMenuItem4";
-            this.NodeMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.NodeMenuItem4.Size = new System.Drawing.Size(148, 22);
             this.NodeMenuItem4.Text = "数据导出";
             this.NodeMenuItem4.Click += new System.EventHandler(this.NodeMenuItem4_Click);
             // 
@@ -2038,14 +2038,14 @@
             this.DevStripSeparator3,
             this.DevMenuItem3});
             this.DevContextMenuStrip.Name = "DevContextMenuStrip";
-            this.DevContextMenuStrip.Size = new System.Drawing.Size(153, 132);
+            this.DevContextMenuStrip.Size = new System.Drawing.Size(149, 110);
             this.DevContextMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.DevContextMenuStrip_Opening);
             // 
             // DevMenuItem1
             // 
             this.DevMenuItem1.Image = global::Delta.MPS.AccessSystem.Properties.Resources.ropen;
             this.DevMenuItem1.Name = "DevMenuItem1";
-            this.DevMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.DevMenuItem1.Size = new System.Drawing.Size(148, 22);
             this.DevMenuItem1.Tag = "7001";
             this.DevMenuItem1.Text = "远程开门";
             this.DevMenuItem1.Click += new System.EventHandler(this.DevMenuItem1_Click);
@@ -2053,20 +2053,20 @@
             // DevStripSeparator1
             // 
             this.DevStripSeparator1.Name = "DevStripSeparator1";
-            this.DevStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.DevStripSeparator1.Size = new System.Drawing.Size(145, 6);
             // 
             // DevMenuItem2
             // 
             this.DevMenuItem2.Image = global::Delta.MPS.AccessSystem.Properties.Resources.report;
             this.DevMenuItem2.Name = "DevMenuItem2";
-            this.DevMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.DevMenuItem2.Size = new System.Drawing.Size(148, 22);
             this.DevMenuItem2.Text = "刷卡记录";
             this.DevMenuItem2.Click += new System.EventHandler(this.DevMenuItem2_Click);
             // 
             // DevStripSeparator2
             // 
             this.DevStripSeparator2.Name = "DevStripSeparator2";
-            this.DevStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            this.DevStripSeparator2.Size = new System.Drawing.Size(145, 6);
             // 
             // DevMenuItem4
             // 
@@ -2076,20 +2076,20 @@
             this.DevMenuItem4.CheckState = System.Windows.Forms.CheckState.Checked;
             this.DevMenuItem4.Image = global::Delta.MPS.AccessSystem.Properties.Resources.colors;
             this.DevMenuItem4.Name = "DevMenuItem4";
-            this.DevMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.DevMenuItem4.Size = new System.Drawing.Size(148, 22);
             this.DevMenuItem4.Text = "显示状态颜色";
             this.DevMenuItem4.CheckedChanged += new System.EventHandler(this.DevMenuItem4_CheckedChanged);
             // 
             // DevStripSeparator3
             // 
             this.DevStripSeparator3.Name = "DevStripSeparator3";
-            this.DevStripSeparator3.Size = new System.Drawing.Size(149, 6);
+            this.DevStripSeparator3.Size = new System.Drawing.Size(145, 6);
             // 
             // DevMenuItem3
             // 
             this.DevMenuItem3.Image = global::Delta.MPS.AccessSystem.Properties.Resources.disk;
             this.DevMenuItem3.Name = "DevMenuItem3";
-            this.DevMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.DevMenuItem3.Size = new System.Drawing.Size(148, 22);
             this.DevMenuItem3.Text = "数据导出";
             this.DevMenuItem3.Click += new System.EventHandler(this.DevMenuItem3_Click);
             // 
@@ -3064,7 +3064,7 @@
             this.AlarmTab2.Location = new System.Drawing.Point(4, 4);
             this.AlarmTab2.Name = "AlarmTab2";
             this.AlarmTab2.Padding = new System.Windows.Forms.Padding(3);
-            this.AlarmTab2.Size = new System.Drawing.Size(770, 250);
+            this.AlarmTab2.Size = new System.Drawing.Size(770, 246);
             this.AlarmTab2.TabIndex = 1;
             this.AlarmTab2.Text = "最近刷卡记录";
             this.AlarmTab2.UseVisualStyleBackColor = true;
@@ -3112,7 +3112,7 @@
             this.HisCardGridView.RowHeadersVisible = false;
             this.HisCardGridView.RowTemplate.Height = 25;
             this.HisCardGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.HisCardGridView.Size = new System.Drawing.Size(764, 244);
+            this.HisCardGridView.Size = new System.Drawing.Size(764, 240);
             this.HisCardGridView.TabIndex = 1;
             this.HisCardGridView.VirtualMode = true;
             this.HisCardGridView.CellValueNeeded += new System.Windows.Forms.DataGridViewCellValueEventHandler(this.HisCardGridView_CellValueNeeded);

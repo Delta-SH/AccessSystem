@@ -68,7 +68,7 @@ namespace Delta.MPS.DBUtility
 	            WHERE R.[Protocol] = 'F1' OR R.[Protocol] = 'CD' OR R.[Protocol] = 'CD_NEW'
             )
             INSERT INTO @Nodes([NodeId],[NodeType],[NodeName],[LastNodeId],[SortIndex],[Remark])
-            SELECT D.[DevID] AS NodeID,1 AS NodeType,D.[DevName] AS NodeName,D.[StaID] AS LastNodeID,ROW_NUMBER() OVER(ORDER BY D.[DevName]) AS SortIndex,ISNULL(P.ProdName,'') AS [Remark] 
+            SELECT D.[DevID] AS NodeID,@DevType AS NodeType,D.[DevName] AS NodeName,D.[StaID] AS LastNodeID,ROW_NUMBER() OVER(ORDER BY D.[DevName]) AS SortIndex,ISNULL(P.ProdName,'') AS [Remark] 
             FROM [dbo].[TM_DEV] D
             INNER JOIN [dbo].[TC_DeviceType] TDT ON D.[DevTypeID] = TDT.[TypeID] AND TDT.[TypeName] LIKE '%门禁%'
             LEFT OUTER JOIN [dbo].[TC_Productor] P ON D.[ProductorID] = P.[RecordID]
