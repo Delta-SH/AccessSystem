@@ -102,7 +102,7 @@ namespace Delta.MPS.AccessSystem
         /// MobilePhone TextBox Leave Event.
         /// </summary>
         private void MobilePhoneTB_Leave(object sender, EventArgs e) {
-            if (!String.IsNullOrWhiteSpace(MobilePhoneTB.Text) && !Regex.IsMatch(MobilePhoneTB.Text.Trim(), @"^1[358][0-9]{9}$", RegexOptions.IgnoreCase)) {
+            if (!String.IsNullOrWhiteSpace(MobilePhoneTB.Text) && MobilePhoneTB.Text.Trim().Length != 11) {
                 MobilePhoneTB.BackColor = Color.MistyRose;
                 MobilePhoneTB.Focus();
                 MessageBox.Show("请输入正确的手机号码", "系统警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);

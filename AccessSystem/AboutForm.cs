@@ -19,7 +19,7 @@ namespace Delta.MPS.AccessSystem
             this.productNameLbl.Text = "智能门禁管理系统";
             this.versionLbl.Text = String.Format("版本 {0}", ConfigurationManager.AppSettings["Version"]);
             this.companyNameLbl.Text = "Delta GreenTech(China) Co., Ltd.";
-            this.copyrightLbl.Text = "All Rights Reserved ©2013";
+            this.copyrightLbl.Text = "All Rights Reserved ©2013-2021";
             registerLbl.Visible = Common.IsCheckLicense;
         }
 

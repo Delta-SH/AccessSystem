@@ -143,7 +143,7 @@ namespace Delta.MPS.AccessSystem
                     }
                 }
 
-                if (!String.IsNullOrWhiteSpace(UserMobileTB.Text) && !Regex.IsMatch(UserMobileTB.Text.Trim(), @"^1[358][0-9]{9}$", RegexOptions.IgnoreCase)) {
+                if (!String.IsNullOrWhiteSpace(UserMobileTB.Text) && UserMobileTB.Text.Trim().Length != 11) {
                     UserMobileTB.Focus();
                     MessageBox.Show("请输入正确的手机号码", "系统警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
